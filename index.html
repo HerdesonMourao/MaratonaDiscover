@@ -52,7 +52,7 @@
         <section id="transaction">
             <h2 class="sr-only">Transações</h2>
 
-            <a href="#" onclick="open()" class="button new">+ Nova Transação</a>
+            <a href="#" onclick="Modal.open()" class="button new">+ Nova Transação</a>
             
             <!-- DataTable / table -->
             
@@ -66,30 +66,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td class="description">Internet</td>
-                        <td class="date">14/02/21</td>
-                        <td class="expense">- R$ 100,00</td>
-                        <td>
-                            <img src="./assets/minus.svg" alt="Remover transação">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="description">Sistema Academia</td>
-                        <td class="date">12/02/21</td>
-                        <td class="income">R$ 100,00</td>
-                        <td>
-                            <img src="./assets/minus.svg" alt="Remover transação">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="description">Energiat</td>
-                        <td class="date">11/02/21</td>
-                        <td class="expense">- R$ 60,00</td>
-                        <td>
-                            <img src="./assets/minus.svg" alt="Remover transação">
-                        </td>
-                    </tr>
+                    
                 </tbody>
             </table>
         </section>
@@ -121,7 +98,7 @@
                         </div>
 
                         <div class="input-group actions">
-                            <a href="#"  onclick="close()" class="button cancel">Cancelar</a>
+                            <a href="#"  onclick="Modal.close()" class="button cancel">Cancelar</a>
                             <button>Salvar</button>
                         </div>
                     </form>
@@ -132,7 +109,7 @@
 
     <!-- Footer note -->
     <footer>
-        <p>dev.finance$</p>
+        <p>dev.finance$ - 2021</p>
     </footer>
 
     <script src="./script.js"></script>
